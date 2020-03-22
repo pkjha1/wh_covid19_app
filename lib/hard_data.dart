@@ -25,6 +25,7 @@ final List<ReusableCard> intubation = [
     title: 'Step By Step Guidance',
     description: '12 steps',
     color: Color.fromRGBO(146, 211, 183, 1),
+    routeTo: '/sbs_guidance',
   ),
   ReusableCard(
     title: 'Checklist',
@@ -44,6 +45,7 @@ final List<ReusableCard> icu = [
     title: 'Ventilation',
     description: 'Description',
     color: Color.fromRGBO(143, 217, 255, 1),
+    
   ),
   ReusableCard(
     title: 'General Care',
@@ -71,3 +73,92 @@ final List<ReusableCard> info = [
     description: 'Descriptions',
   ),
 ];
+
+
+// Steps test
+List<Step> steps = [
+    Step(
+      title: const Text('Hand Hygene', style: TextStyle(fontSize: 20),),
+      isActive: true,
+      state: StepState.indexed,
+      content: Container(
+        decoration: BoxDecoration(
+            borderRadius: BorderRadius.all(Radius.circular(10)),
+            color: Color.fromRGBO(236, 243, 240, 0.94)),
+        width: 300,
+        height: 200,
+        child: Container(
+          margin: EdgeInsets.all(10),
+          decoration: BoxDecoration(
+              borderRadius: BorderRadius.all(Radius.circular(10)),
+              color: Colors.white),
+          child: Center(
+            child: Text('Clean your hands carefully...'),
+          ),
+        ),
+      ),
+    ),
+    Step(
+      title: const Text('Gown', style: TextStyle(fontSize: 20),),
+      isActive: true,
+      state: StepState.indexed,
+      content: Container(
+        decoration: BoxDecoration(
+            borderRadius: BorderRadius.all(Radius.circular(10)),
+            color: Color.fromRGBO(236, 243, 240, 0.94)),
+        width: 300,
+        height: 200,
+        child: Container(
+          margin: EdgeInsets.all(10),
+          decoration: BoxDecoration(
+              borderRadius: BorderRadius.all(Radius.circular(10)),
+              color: Colors.white),
+          child: Center(
+            child: Text('Clean your hands carefully...'),
+          ),
+        ),
+      ),
+    ),
+    Step(
+      title: const Text('Eye Protection', style: TextStyle(fontSize: 20),),
+      isActive: true,
+      state: StepState.indexed,
+      content: Container(
+        decoration: BoxDecoration(
+            borderRadius: BorderRadius.all(Radius.circular(10)),
+            color: Color.fromRGBO(236, 243, 240, 0.94)),
+        width: 300,
+        height: 200,
+        child: Container(
+          margin: EdgeInsets.all(10),
+          decoration: BoxDecoration(
+              borderRadius: BorderRadius.all(Radius.circular(10)),
+              color: Colors.white),
+          child: Center(
+            child: Text('Clean your hands carefully...'),
+          ),
+        ),
+      ),
+    ),
+    Step(
+      title: const Text('Mask', style: TextStyle(fontSize: 20),),
+      isActive: true,
+      state: StepState.indexed,
+      content: Container(
+        decoration: BoxDecoration(
+            borderRadius: BorderRadius.all(Radius.circular(10)),
+            color: Color.fromRGBO(236, 243, 240, 0.94)),
+        width: 300,
+        height: 200,
+        child: Container(
+          margin: EdgeInsets.all(10),
+          decoration: BoxDecoration(
+              borderRadius: BorderRadius.all(Radius.circular(10)),
+              color: Colors.white),
+          child: Center(
+            child: Text('Clean your hands carefully...'),
+          ),
+        ),
+      ),
+    ),
+  ];

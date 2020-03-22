@@ -12,7 +12,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'EGBA',
       theme: ThemeData(
-        primaryColor: Colors.green,
+        primaryColor: Colors.white,
+        textTheme: TextTheme(),
         backgroundColor: Color.fromRGBO(236, 243, 240, 1),
         fontFamily: 'Inter'
       ),

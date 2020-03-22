@@ -12,17 +12,26 @@ const TextStyle cardContainerTextStyle = TextStyle(fontSize: 22);
 
 // Card styles
 const TextStyle cardTitleTextStyle = TextStyle(
-  color: Color(0xff000000),
-  fontWeight: FontWeight.w600,
-  fontStyle: FontStyle.normal,
-  fontSize: 17.0,
-  fontFamily: 'SFProText'
-);
+    color: Color(0xff000000),
+    fontWeight: FontWeight.w600,
+    fontStyle: FontStyle.normal,
+    fontSize: 17.0,
+    fontFamily: 'SFProText');
 
 const TextStyle cardDescriptionTextStyle = TextStyle(
-  color: Color(0x993c3c43),
-  fontWeight: FontWeight.w500,
-  fontStyle: FontStyle.normal,
-  fontSize: 12.0,
-  fontFamily: 'SFProText'
+    color: Color(0x993c3c43),
+    fontWeight: FontWeight.w500,
+    fontStyle: FontStyle.normal,
+    fontSize: 12.0,
+    fontFamily: 'SFProText');
+
+// Stepper style
+// Stepper confirm button style
+const BoxDecoration stepperConfirmationButtonDecoration = BoxDecoration(
+  borderRadius: BorderRadius.all(
+    Radius.circular(10),
+  ),
+  color: Color.fromRGBO(236, 243, 240, 0.94),
 );
+
+const Color stepperConfirmationButtonIconColor = Color.fromRGBO(146, 211, 183, 1);
