@@ -27,19 +27,16 @@ final List<ReusableCard> intubation = [
     title: 'Step By Step Guidance',
     description: '12 steps',
     color: AppColors.backgroundGreen,
-    routeTo: Routes.intubationGuidance,
   ),
   ReusableCard(
     title: 'Checklist',
     description: '12 steps',
     color: AppColors.backgroundGreen,
-    routeTo: Routes.intubationChecklist,
   ),
   ReusableCard(
     title: 'Algorithm',
     description: '12 steps',
     color: AppColors.backgroundGreen,
-    routeTo: Routes.intubationAlgorithm,
   )
 ];
 
